@@ -4,7 +4,8 @@ import backgroundPic from '../assets/backgroundPic.png'
 import * as Styled from './style';
 import { useNavigate } from 'react-router';
 import { useRef } from 'react';
-import * as Style from '../components/style.jsx'
+import * as Style from '../components/style.jsx';
+import { BiConversation } from "react-icons/bi";
 
 const Home = () => {
     const navigate = useNavigate();
@@ -70,8 +71,7 @@ const Home = () => {
             <Styled.Para className='ColllabPara'>I’m always open to discussing product design work or partnership opportunities.</Styled.Para>
             <Styled.Button>
               <button class="cta" onClick={() => handleNavigate("contact")}>
-              <svg width="15px" height="10px" viewBox="0 0 13 10">
-              {/* <BiMessageAltDetail /> */}
+              <svg  viewBox="0 0 13 10">              
               <path d="M1,5 L11,5"></path>
     <polyline points="8 1 12 5 8 9"></polyline>
   </svg>

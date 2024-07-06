@@ -40,9 +40,9 @@ export const Contact = () => {
         <Styled.Form>
           <div className="mainForm">
             <Styled.MainForm name="submit-to-google-sheet">
-              <div className="nameAddress">
+              {/* <div className="nameAddress"> */}
                 <Styled.Input placeholder="Full Name" type="text" name="Name" />
-              </div>
+              
               <Styled.InputLocation placeholder="Email Address" type="text" name="Email" />
               <Styled.TextArea placeholder="Write a message" type="text" name="Message" />
      

@@ -30,8 +30,11 @@ export const About = () => {
             <Styled.Cards>
             {listData?.map((item) => {
                 return (<Styled.Box>
+                  <div className='header'>
                   <img src={item.image} alt=''/>
                   <h2> {item.heading} </h2>
+                  </div>
+                 
                   <p> {item.intro} </p>
                   <h5> {item.head} </h5>
                   <p> {item.content} </p>

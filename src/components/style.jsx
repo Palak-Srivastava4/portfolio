@@ -8,11 +8,10 @@ margin: 0;
   border: none;
   cursor: pointer;
   /* background-color: black; */
-
   --border-right: 6px;
   --text-stroke-color: rgba(255, 255, 255, 0.701);
   --animation-color: #ffffff;
-  --fs-size: 2em;
+  --fs-size: 38px;
   letter-spacing: 2px;
   text-decoration: none;
   font-size: var(--fs-size);
@@ -21,7 +20,9 @@ margin: 0;
   /* text-transform: uppercase; */
   color: transparent;
   -webkit-text-stroke: 1px var(--text-stroke-color);
-
+@media (max-width: 660px){
+  --fs-size: 12px;
+}
 
 .hover-text {
   position: absolute;
