@@ -1,6 +1,7 @@
 import React from 'react';
 import workingGirl from '../assets/workingGirl.png';
-import backgroundPic from '../assets/backgroundPic.png'
+import backgroundPic from '../assets/backgroundPic.png';
+import homeBg from '../assets/homeBgd.png';
 import * as Styled from './style';
 import { useNavigate } from 'react-router';
 import { useRef } from 'react';
@@ -23,6 +24,7 @@ const Home = () => {
 };
   return (
     <>
+    <Styled.HomeBackground $background={homeBg}>
      <Styled.Intro>
         <Styled.Head>Frontend Developer</Styled.Head>
         <Styled.Para><ul>
@@ -42,6 +44,7 @@ const Home = () => {
             </svg>
 </Styled.Dropdown>
 </Styled.Intro> 
+</Styled.HomeBackground>
         <Styled.Background $background={backgroundPic} ref={collabSectionRef}>
             <Styled.Finger >
               <div className="lives">

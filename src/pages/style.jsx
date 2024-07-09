@@ -286,7 +286,7 @@ export const SocialIcon = styled.div`
   }
 `;
 export const Intro = styled.div`
-margin-bottom: 140px;
+padding-bottom: 140px;
 .img{
     display:flex;
 }`;
@@ -356,10 +356,25 @@ color: #818181;
   }
 }
 span{
-  color: #5f8aef;
+  color: #E78177;
   font-weight: 600;
   cursor: pointer;
 }
+`;
+export const HomeBackground = styled.div`
+  background-image: url(${props => props.$background});
+  /* margin-top: 120px; */
+  /* height: 575px; */
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+  @media (max-width: 1200px) {
+    height: auto;
+  }
 `;
 export const HomePic = styled.div`
 display: flex;
@@ -372,6 +387,7 @@ img{
 `;
 export const Dropdown = styled.div`
 cursor: pointer;
+background: transparent;
 @media (max-width: 660px){
     margin: 0;
     padding: 0;
