@@ -356,7 +356,7 @@ color: #818181;
   }
 }
 span{
-  color: #E78177;
+  color: #317df9;
   font-weight: 600;
   cursor: pointer;
 }
@@ -369,7 +369,7 @@ export const HomeBackground = styled.div`
   z-index: 1;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   /* padding-top: 120px;
   padding-bottom: 120px; */
   @media (max-width: 1200px) {

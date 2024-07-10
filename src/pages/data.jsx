@@ -14,9 +14,9 @@ export const listData =[
     heading: "Frontend Developer",
     intro: "I like to code things from scratch, and enjoy bringing ideas to life in the browser",
     head:"Languages I speak:",
-    content:"HTML, Pug, Slim, CSS, Sass, Git",
+    content:"JavaScript, HTML, C++, CSS",
     head2:"Dev Tools:",
-    content2:["React JS","Next Js", "JavaScript", "Styled Components", "Bootstrap", "Bitbucket", "Github", "VS Code"]
+    content2:["React JS","Next Js", "Styled Components", "Bootstrap", "Bitbucket", "Github", "VS Code"]
 },
 {
     id: 1,
@@ -32,7 +32,7 @@ export const listData =[
     id: 2,
     image : experience,
     heading: "Experience",
-    intro: "I believe in crafting user experiences that not only look beautiful but also feel intuitive and natural.'",
+    intro: "I believe in crafting user experiences that not only look beautiful but also feel intuitive and natural.",
     head:"Experiences I draw from:",
     content:"UX/UI, Product design, Freelancing",
     head2:"Work Stats:",
