@@ -1108,6 +1108,10 @@ li{
   font-size: 17px;
   list-style: none;
   line-height: 28px;
+  span{
+    color: #1e1e1e;
+    font-weight:600;
+  }
    @media (max-width: 660px){
     font-size: 14px;
     line-height: 22px;

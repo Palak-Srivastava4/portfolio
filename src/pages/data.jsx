@@ -36,7 +36,7 @@ export const listData =[
     head:"Experiences I draw from:",
     content:"UX/UI, Product design, Freelancing",
     head2:"Work Stats:",
-    content2:["Etelligens Technologies","Software Developer Trainee","Jan 2024 - May 2024",<br/>, "Cetpa Infotech", "Web Designing Intern", "Aug 2022 - Sept 2022" ]
+    content2:[<span>Etelligens Technologies</span>,"Software Developer Trainee","Jan 2024 - May 2024",<br/>, <span>Cetpa Infotech</span>, "Web Designing Intern", "Aug 2022 - Sept 2022" ]
 }
 ];
 
